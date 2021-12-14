@@ -61,9 +61,9 @@ namespace Zadacha21._1
             thread1.Join();
             thread2.Join();
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < x; i++)
             {
-                for (int j = 0; j < 5; j++)
+                for (int j = 0; j < y; j++)
                 {
                     Console.Write("{0} ", garden[i, j]);
                 }
